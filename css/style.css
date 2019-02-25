@@ -167,7 +167,6 @@ header nav ul li a:hover {
     display: inline-block;
     width: 600px;
     text-align: center;
-    float: right;
     position: relative;
     top: 50%;
     transform: translate(0, -50%);
