@@ -77,12 +77,12 @@ header {
     width: 1200px;
 }
 
-#head-menu {
+.head-menu {
     height: 89px;
     border-bottom: 1px solid rgba(223, 223, 223, 0.2);
 }
 
-#head-menu img {
+.head-menu img {
     position: relative;
     top: 50%;
     transform: translate(0, -50%);
@@ -119,20 +119,20 @@ header nav ul li a:hover {
     border-bottom: 1px solid white;
 }
 
-#welcome {
+.welcome {
     margin-top: 336px;
     margin-bottom: 341px;
     color: white;
     text-align: center;
 }
 
-#welcome h1 {
+.welcome h1 {
     font-size: 72px;
     font-weight: bold;
     font-family: MyriadPro;
 }
 
-#welcome h2 {
+.welcome h2 {
     padding-top: 12px;
     line-height: 47px;
     font-size: 32px;
@@ -140,7 +140,7 @@ header nav ul li a:hover {
     font-style: italic;
 }
 
-#login-menu {
+.login-menu {
     color: #fff;
     height: 121px;
     background: rgba(57, 208, 131, 0.82);
@@ -148,11 +148,11 @@ header nav ul li a:hover {
     font-weight: bold;
 }
 
-#login-menu a {
+.login-menu a {
     color: white;
 }
 
-#login {
+.login {
     font-size: 22px;
     display: inline-block;
     width: 600px;
@@ -162,7 +162,7 @@ header nav ul li a:hover {
     transform: translate(0, -50%);
 }
 
-#register {
+.register {
     font-size: 22px;
     display: inline-block;
     width: 600px;
@@ -173,11 +173,11 @@ header nav ul li a:hover {
 }
 
 
-#login-menu img {
+.login-menu img {
     position: absolute;
 }
 
-#login-menu a:hover {
+.login-menu a:hover {
     color: #ebaa20;
 }
 
@@ -275,7 +275,7 @@ table tr:not(:last-child) td::after {
     background-color: #ccc;
 }
 
-#packages {
+.packages {
     margin-top: 91px;
     height: 764px;
     border-bottom: 2px dotted rgb(217, 217, 217);
@@ -295,51 +295,51 @@ table tr:not(:last-child) td::after {
     text-align: center;
 }
 
-#basic-package {
+.basic-package {
     border-top: 5px solid #f9d423;
 }
 
-#basic-package .package-data {
+.basic-package .package-data {
     color: #f9d423;
 }
 
-#basic-package .package-price {
+.basic-package .package-price {
     border-bottom: 3px solid #f9d423
 }
 
-#normal-package {
+.normal-package {
     border-top: 5px solid #7f8c8d;
 }
 
-#normal-package .package-data {
+.normal-package .package-data {
     color: #7f8c8d;
 }
 
-#normal-package .package-price {
+.normal-package .package-price {
     border-bottom: 3px solid #7f8c8d;
 }
 
-#big-package {
+.big-package {
     border-top: 5px solid #f85f40;
 }
 
-#big-package .package-data {
+.big-package .package-data {
     color: #f85f40;
 }
 
-#big-package .package-price {
+.big-package .package-price {
     border-bottom: 3px solid #f85f40;
 }
 
-#biggest-package {
+.biggest-package {
     border-top: 5px solid #1abc9c;
 }
 
-#biggest-package .package-data {
+.biggest-package .package-data {
     color: #1abc9c;
 }
 
-#biggest-package .package-price {
+.biggest-package .package-price {
     border-bottom: 3px solid #1abc9c;
 }
 
@@ -435,11 +435,11 @@ table tr:not(:last-child) td::after {
     color: #1abc9c;
 }
 
-#creators {
+.creators {
     margin-top: 97px;
 }
 
-#about-us {
+.about-us {
     display: inline-block;
     width: 430px;
     font-family: LatoThin;
@@ -448,23 +448,23 @@ table tr:not(:last-child) td::after {
     border-right: 1px dashed rgb(223, 223, 223);
 }
 
-#about-us h3 {
+.about-us h3 {
     font-size: 35.11px;
     font-family: LatoSemibold;
     margin-top: 0;
     margin-bottom: 23px;
 }
 
-#about-us p {
+.about-us p {
     line-height: 27px;
 }
 
-#about-us h3::before {
+.about-us h3::before {
     content: "About ";
     font-family: LatoBlack;
 }
 
-#social-media {
+.social-media {
     height: 211px;
     padding-left: 98px;
     width: 565px;
@@ -519,7 +519,7 @@ table tr:not(:last-child) td::after {
     border-bottom: 3px solid blue;
 }
 
-#comment {
+.comment {
     margin-top: 90px;
     height: 190px;
     background-image: url(../img/comment_bg.jpg);
@@ -527,7 +527,7 @@ table tr:not(:last-child) td::after {
     color: #fff;
 }
 
-#comment p {
+.comment p {
     line-height: 30px;
     font-family: LatoLight;
     padding-top: 45px;
@@ -549,7 +549,7 @@ table tr:not(:last-child) td::after {
     padding-left: 8px;
 }
 
-#service {
+.service {
     margin-top: 100px;
 }
 
@@ -627,18 +627,18 @@ footer nav ul li a:hover {
     color: #686868;
 }
 
-#designer {
+.designer {
     width: 295px;
     padding-right: 82px;
     line-height: 25px;
 }
 
-#designer span:last-child {
+.designer span:last-child {
     display: block;
     padding-top: 15px;
 }
 
-#designer span:last-child::after {
+.designer span:last-child::after {
     content: 'Mert Can Eyriyer.';
     font-family: LatoBold;
 }
@@ -661,37 +661,37 @@ footer nav ul li a:hover {
     margin-left: 69px;
 }
 
-#footer-menu {
+.footer-menu {
     font-size: 0;
     padding: 0px 84px 0 120px;
     border-left: 1px solid rgba(223, 223, 223, 0.2);
     border-right: 1px solid rgba(223, 223, 223, 0.2);
 }
 
-#footer-menu ul {
+.footer-menu ul {
     list-style-image: url(../img/angle-passive.png);
 }
 
-#footer-menu ul li {
+.footer-menu ul li {
     width: 108px;
 }
 
-#footer-menu ul li:hover {
+.footer-menu ul li:hover {
     list-style-image: url(../img/angle-active.png);
     padding-left: 5px;
     padding-right: 0;
     color: white;
 }
 
-#contacts {
+.contacts {
     width: 234.688px;
     padding-left: 83px;
 }
 
-#contacts ul li:first-child {
+.contacts ul li:first-child {
     font-family: LatoSemibold;
 }
 
-#contacts img {
+.contacts img {
     padding-right: 7px;
 }

@@ -1,297 +1,367 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Document</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
+      <div class="wrapper">
+        <section class="head-menu">
+          <img src="img/logo_header.png" alt="logo" />
+          <nav>
+            <ul>
+              <li><a href="">Home</a></li>
+              <li><a href="">Domain</a></li>
+              <li><a href="">Hosting</a></li>
+              <li><a href="">Clients</a></li>
+              <li><a href="">Blog</a></li>
+              <li><a href="">Support</a></li>
+            </ul>
+          </nav>
+        </section>
+        <section class="welcome">
+          <h1>HELLO!</h1>
+          <br />
+          <h2>
+            We love our work... <br />
+            And We're taking it seriously...
+          </h2>
+        </section>
+      </div>
+      <section class="login-menu">
+        <img src="img/login_bg_picture.png" alt="login background" />
         <div class="wrapper">
-            <div id="head-menu">
-                <img src="img/logo_header.png" alt="logo">
-                <nav>
-                    <ul>
-                        <li><a href="">Home</a>
-                        <li><a href="">Domain</a>
-                        <li><a href="">Hosting</a>
-                        <li><a href="">Clients</a>
-                        <li><a href="">Blog</a>
-                        <li><a href="">Support</a>
-                    </ul>
-                </nav>
-            </div>
-            <div id="welcome">
-                <h1>HELLO!</h1><br>
-                <h2>We love our work... <br>
-                    And We're taking it seriously...</h2>
-            </div>
+          <div class="vert-allign">
+            <a href="">
+              <div class="login">LOGIN</div>
+            </a>
+            <a href="">
+              <div class="register">REGISTER</div>
+            </a>
+          </div>
         </div>
-        <div id="login-menu">
-            <img src="img/login_bg_picture.png" alt="login background">
-            <div class="wrapper">
-                <div class="vert-allign">
-                    <a href="">
-                        <div id="login">LOGIN</div>
-                    </a>
-                    <a href="">
-                        <div id="register">REGISTER</div>
-                    </a>
-                </div>
-            </div>
-        </div>
+      </section>
     </header>
     <main>
+      <section class="domain-name">
         <h3>Would you like to buy a new domain ?</h3>
-        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse auctor mauris ac nulla interdum, id
-            molestier.</h4>
+        <h4>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+          auctor mauris ac nulla interdum, id molestier.
+        </h4>
         <form action="URL">
-            <fieldset>
-                <span>www.</span>
-                <input type="text" size="87" placeholder="What do you want?">
-                <select name="TLD" id="TLD">
-                    <option value="">.com</option>
-                    <option value="">.net</option>
-                    <option value="">.org</option>
-                </select>
-            </fieldset>
+          <fieldset>
+            <span>www.</span>
+            <input type="text" size="87" placeholder="What do you want?" />
+            <select name="nTLD" class="TLD">
+              <option value="">.com</option>
+              <option value="">.net</option>
+              <option value="">.org</option>
+            </select>
+          </fieldset>
         </form>
         <table>
-            <tr>
-                <td>.COM</td>
-                <td>1 Year</td>
-                <td>$9.00 USD</td>
-                <td>Transfer Price No</td>
-            </tr>
-            <tr>
-                <td>.NET</td>
-                <td>1 Year</td>
-                <td>$9.00 USD</td>
-                <td>Transfer Price No</td>
-            </tr>
-
+          <tr>
+            <td>.COM</td>
+            <td>1 Year</td>
+            <td>$9.00 USD</td>
+            <td>Transfer Price No</td>
+          </tr>
+          <tr>
+            <td>.NET</td>
+            <td>1 Year</td>
+            <td>$9.00 USD</td>
+            <td>Transfer Price No</td>
+          </tr>
         </table>
-    </main>
-    <div id="packages">
+      </section>
+      <section class="packages">
         <div class="wrapper">
-            <div id="basic-package" class="package"><img src="img/basic_package_logo.jpg" alt="basic-package">
-                <h4>BASIC PACKAGE</h4>
-                <div class="package-data">
-                    <ul>
-                        <li>Disk Space (GB)</li>
-                        <li>Subdomains</li>
-                        <li>Transfer (GB)</li>
-                        <li>Data Bases</li>
-                        <li>Dashboards</li>
-                        <li>Control Panel & FTP</li>
-                        <li>Free Support</li>
-                    </ul>
-                    <ul>
-                        <li>50</li>
-                        <li>50</li>
-                        <li>50</li>
-                        <li>1</li>
-                        <li>1</li>
-                    </ul>
-                </div>
-                <div class="package-price">15</div>
-                <a href="">SELECT PLAN</a>
+          <div class="basic-package package">
+            <img src="img/basic_package_logo.jpg" alt="basic-package" />
+            <h4>BASIC PACKAGE</h4>
+            <div class="package-data">
+              <ul>
+                <li>Disk Space (GB)</li>
+                <li>Subdomains</li>
+                <li>Transfer (GB)</li>
+                <li>Data Bases</li>
+                <li>Dashboards</li>
+                <li>Control Panel & FTP</li>
+                <li>Free Support</li>
+              </ul>
+              <ul>
+                <li>50</li>
+                <li>50</li>
+                <li>50</li>
+                <li>1</li>
+                <li>1</li>
+              </ul>
             </div>
-            <div id="normal-package" class="package"><img src="img/normal_package_logo.jpg" alt="normal-package">
-                <h4>NORMAL PACKAGE</h4>
-                <div class="package-data">
-
-                    <ul>
-                        <li>Disk Space (GB)</li>
-                        <li>Subdomains</li>
-                        <li>Transfer (GB)</li>
-                        <li>Data Bases</li>
-                        <li>Dashboards</li>
-                        <li>Control Panel & FTP</li>
-                        <li>Free Support</li>
-                    </ul>
-                    <ul>
-                        <li>100</li>
-                        <li>100</li>
-                        <li>100</li>
-                        <li>2</li>
-                        <li>2</li>
-                    </ul>
-                </div>
-                <div class="package-price">30</div>
-                <a href="">SELECT PLAN</a>
+            <div class="package-price">15</div>
+            <a href="">SELECT PLAN</a>
+          </div>
+          <div class="normal-package package">
+            <img src="img/normal_package_logo.jpg" alt="normal-package" />
+            <h4>NORMAL PACKAGE</h4>
+            <div class="package-data">
+              <ul>
+                <li>Disk Space (GB)</li>
+                <li>Subdomains</li>
+                <li>Transfer (GB)</li>
+                <li>Data Bases</li>
+                <li>Dashboards</li>
+                <li>Control Panel & FTP</li>
+                <li>Free Support</li>
+              </ul>
+              <ul>
+                <li>100</li>
+                <li>100</li>
+                <li>100</li>
+                <li>2</li>
+                <li>2</li>
+              </ul>
             </div>
-            <div id="big-package" class="package"><img src="img/big_package_logo.jpg" alt="big-package">
-                <h4>BIG PACKAGE</h4>
-                <div class="package-data">
-                    <ul>
-                        <li>Disk Space (GB)</li>
-                        <li>Subdomains</li>
-                        <li>Transfer (GB)</li>
-                        <li>Data Bases</li>
-                        <li>Dashboards</li>
-                        <li>Control Panel & FTP</li>
-                        <li>Free Support</li>
-                    </ul>
-                    <ul>
-                        <li>150</li>
-                        <li>150</li>
-                        <li>150</li>
-                        <li>4</li>
-                        <li>4</li>
-                    </ul>
-                </div>
-                <div class="package-price">40</div>
-                <a href="">SELECT PLAN</a>
+            <div class="package-price">30</div>
+            <a href="">SELECT PLAN</a>
+          </div>
+          <div class="big-package package">
+            <img src="img/big_package_logo.jpg" alt="big-package" />
+            <h4>BIG PACKAGE</h4>
+            <div class="package-data">
+              <ul>
+                <li>Disk Space (GB)</li>
+                <li>Subdomains</li>
+                <li>Transfer (GB)</li>
+                <li>Data Bases</li>
+                <li>Dashboards</li>
+                <li>Control Panel & FTP</li>
+                <li>Free Support</li>
+              </ul>
+              <ul>
+                <li>150</li>
+                <li>150</li>
+                <li>150</li>
+                <li>4</li>
+                <li>4</li>
+              </ul>
             </div>
-            <div id="biggest-package" class="package"><img src="img/biggest_package_logo.jpg" alt="biggest-package">
-                <h4>BIGGEST PACKAGE</h4>
-                <div class="package-data">
-                    <ul>
-                        <li>Disk Space (GB)</li>
-                        <li>Subdomains</li>
-                        <li>Transfer (GB)</li>
-                        <li>Data Bases</li>
-                        <li>Dashboards</li>
-                        <li>Control Panel & FTP</li>
-                        <li>Free Support</li>
-                    </ul>
-                    <ul>
-                        <li>250</li>
-                        <li>250</li>
-                        <li>250</li>
-                        <li>6</li>
-                        <li>6</li>
-                    </ul>
-                </div>
-                <div class="package-price">70</div>
-                <a href="">SELECT PLAN</a>
+            <div class="package-price">40</div>
+            <a href="">SELECT PLAN</a>
+          </div>
+          <div class="biggest-package package">
+            <img src="img/biggest_package_logo.jpg" alt="biggest-package" />
+            <h4>BIGGEST PACKAGE</h4>
+            <div class="package-data">
+              <ul>
+                <li>Disk Space (GB)</li>
+                <li>Subdomains</li>
+                <li>Transfer (GB)</li>
+                <li>Data Bases</li>
+                <li>Dashboards</li>
+                <li>Control Panel & FTP</li>
+                <li>Free Support</li>
+              </ul>
+              <ul>
+                <li>250</li>
+                <li>250</li>
+                <li>250</li>
+                <li>6</li>
+                <li>6</li>
+              </ul>
             </div>
+            <div class="package-price">70</div>
+            <a href="">SELECT PLAN</a>
+          </div>
         </div>
-    </div>
-    <div id="creators">
+      </section>
+      <section class="creators">
         <div class="wrapper">
-            <div id="about-us">
-                <h3>Us</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Praesent feugiat eget diam sit amet molestie.Curabitur.
-                    ut ipsum bibendum tortor lacinia fermentum nec joeıa.
-                    Mauris at augue libero. Fusce posuere, sapien nec poır.
-                    Uaee augsuada sed mauris in tincidunt...</p>
+          <div class="about-us">
+            <h3>Us</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
+              feugiat eget diam sit amet molestie.Curabitur. ut ipsum bibendum
+              tortor lacinia fermentum nec joeıa. Mauris at augue libero. Fusce
+              posuere, sapien nec poır. Uaee augsuada sed mauris in tincidunt...
+            </p>
+          </div>
+          <div class="social-media">
+            <div class="autor">
+              <img src="img/1-st-designer.jpg" alt="1-st-designer" />
+              <h4>Jonny Doe</h4>
+              <h5>Designer</h5>
+              <ul>
+                <li>
+                  <a href=""
+                    ><img src="img/fecebook-logo.jpg" alt="facebook-link"
+                  /></a>
+                </li>
+                <li>
+                  <a href=""
+                    ><img src="img/twitter-logo.jpg" alt="twitter-link"
+                  /></a>
+                </li>
+                <li>
+                  <a href=""
+                    ><img src="img/linked-in-logo.jpg" alt="linkdin-lin"
+                  /></a>
+                </li>
+              </ul>
             </div>
-            <div id="social-media">
-                <div class="autor"><img src="img/1-st-designer.jpg" alt="1-st-designer">
-                    <h4>Jonny Doe</h4>
-                    <h5>Designer</h5>
-                    <ul>
-                        <li><a href=""><img src="img/fecebook-logo.jpg" alt="facebook-link"></a></li>
-                        <li><a href=""><img src="img/twitter-logo.jpg" alt="twitter-link"></a></li>
-                        <li><a href=""><img src="img/linked-in-logo.jpg" alt="linkdin-lin"></a></li>
-                    </ul>
-                </div>
-                <div class="autor"><img src="img/2-nd-designer.jpg" alt="2-nd-designer">
-                    <h4>John Doe</h4>
-                    <h5>Designer</h5>
-                    <ul>
-                        <li><a href=""><img src="img/fecebook-logo.jpg" alt="facebook-link"></a></li>
-                        <li><a href=""><img src="img/twitter-logo.jpg" alt="twitter-link"></a></li>
-                        <li><a href=""><img src="img/linked-in-logo.jpg" alt="linkdin-lin"></a></li>
-                    </ul>
-                </div>
-                <div class="autor"><img src="img/3-d-designer.jpg" alt="3-d-designer">
-                    <h4>Johnatan Doe</h4>
-                    <h5>Designer</h5>
-                    <ul>
-                        <li><a href=""><img src="img/fecebook-logo.jpg" alt="facebook-link"></a></li>
-                        <li><a href=""><img src="img/twitter-logo.jpg" alt="twitter-link"></a></li>
-                        <li><a href=""><img src="img/linked-in-logo.jpg" alt="linkdin-lin"></a></li>
-                    </ul>
-                </div>
+            <div class="autor">
+              <img src="img/2-nd-designer.jpg" alt="2-nd-designer" />
+              <h4>John Doe</h4>
+              <h5>Designer</h5>
+              <ul>
+                <li>
+                  <a href=""
+                    ><img src="img/fecebook-logo.jpg" alt="facebook-link"
+                  /></a>
+                </li>
+                <li>
+                  <a href=""
+                    ><img src="img/twitter-logo.jpg" alt="twitter-link"
+                  /></a>
+                </li>
+                <li>
+                  <a href=""
+                    ><img src="img/linked-in-logo.jpg" alt="linkdin-lin"
+                  /></a>
+                </li>
+              </ul>
             </div>
+            <div class="autor">
+              <img src="img/3-d-designer.jpg" alt="3-d-designer" />
+              <h4>Johnatan Doe</h4>
+              <h5>Designer</h5>
+              <ul>
+                <li>
+                  <a href=""
+                    ><img src="img/fecebook-logo.jpg" alt="facebook-link"
+                  /></a>
+                </li>
+                <li>
+                  <a href=""
+                    ><img src="img/twitter-logo.jpg" alt="twitter-link"
+                  /></a>
+                </li>
+                <li>
+                  <a href=""
+                    ><img src="img/linked-in-logo.jpg" alt="linkdin-lin"
+                  /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
-    </div>
-    <div id="comment">
-        <p>“Suspendisse tempor turpis odio, sit amet cursus leo consequat non. Maecenas lacinia faucibus enimqui <br>
-            interdum dolor pulvinar vitae.” </p>
-        <div class="signature">
+      </section>
+      <section id="slider">
+        <div class="comment">
+          <p>
+            “Suspendisse tempor turpis odio, sit amet cursus leo consequat non.
+            Maecenas lacinia faucibus enimqui <br />
+            interdum dolor pulvinar vitae.”
+          </p>
+          <div class="signature">
             <span>John Doe</span>
-            <img src="img/slider.png" alt="slider">
+            <img src="img/slider.png" alt="slider" />
+          </div>
         </div>
-    </div>
-    <div id="service">
+      </section>
+      <section class="service">
         <div class="wrapper">
-            <div class="promo">
-                <img src="img/fast-servers-logo.jpg" alt="fast-servers">
-                <span>Fast Servers</span>
-                <span>Nulla dapibus neque augue, quis <br>
-                    tincidunt tortor aliquam vitae.</span>
-            </div>
-            <div class="promo">
-                <img src="img/cloude-servers-logo.jpg" alt="cloud-servers">
-                <span>Cloud Servers</span>
-                <span>Nulla dapibus neque augue, quis <br>
-                    tincidunt tortor aliquam vitae.</span>
-            </div>
-            <div class="promo">
-                <img src="img/domain-transfer-loge.jpg" alt="domain-transfer">
-                <span>Domain Transfer</span>
-                <span>Nulla dapibus neque augue, quis <br>
-                    tincidunt tortor aliquam vitae.</span>
-            </div>
-            <div class="promo">
-                <img src="img/live-support-logo.jpg" alt="live-support">
-                <span>Live Support</span>
-                <span>Nulla dapibus neque augue, quis <br>
-                    tincidunt tortor aliquam vitae.</span>
-            </div>
+          <div class="promo">
+            <img src="img/fast-servers-logo.jpg" alt="fast-servers" />
+            <span>Fast Servers</span>
+            <span
+              >Nulla dapibus neque augue, quis <br />
+              tincidunt tortor aliquam vitae.</span
+            >
+          </div>
+          <div class="promo">
+            <img src="img/cloude-servers-logo.jpg" alt="cloud-servers" />
+            <span>Cloud Servers</span>
+            <span
+              >Nulla dapibus neque augue, quis <br />
+              tincidunt tortor aliquam vitae.</span
+            >
+          </div>
+          <div class="promo">
+            <img src="img/domain-transfer-loge.jpg" alt="domain-transfer" />
+            <span>Domain Transfer</span>
+            <span
+              >Nulla dapibus neque augue, quis <br />
+              tincidunt tortor aliquam vitae.</span
+            >
+          </div>
+          <div class="promo">
+            <img src="img/live-support-logo.jpg" alt="live-support" />
+            <span>Live Support</span>
+            <span
+              >Nulla dapibus neque augue, quis <br />
+              tincidunt tortor aliquam vitae.</span
+            >
+          </div>
         </div>
-    </div>
+      </section>
+    </main>
     <footer>
-        <div class="wrapper">
-            <div class="footer-bar">
-                <img src="img/logo_footer.png" alt="logo">
-                <nav>
-                    <ul>
-                        <li><a href="">HOME</a>
-                        <li><a href="">ABOUT US</a>
-                        <li><a href="">BLOG</a>
-                        <li><a href="">POLICY</a>
-                        <li><a href="">CONTACT</a>
-                    </ul>
-                </nav>
-            </div>
-            <div class="box">
-                <div id="designer" class="footer-info"><span>Lorem ipsum dolor sit amet, consecteteeseurı
-                        adipiscing elit. Donec mollis commodoeesene
-                        que, non commodo risus volutpat vel</span> <br>
-                    <span>Design by </span></div>
-                <div id="footer-menu" class="footer-info">
-                    <ul>
-                        <li>Support</li>
-                        <li>Account</li>
-                        <li>Product Catalog</li>
-                        <li>Shortcodes</li>
-                    </ul>
-                    <ul>
-                        <li>Site Map</li>
-                        <li>Whois Search</li>
-                        <li>Wab Mail</li>
-                        <li>Find Domain</li>
-                    </ul>
-                </div>
-                <div id="contacts" class="footer-info">
-                    <ul>
-                        <li><img src="img/phone-png.png" alt="phone">0000-0000-0000</li>
-                        <li><img src="img/mail-png.png" alt="mail">infomationteam@ghosthost.com</li>
-                        <li>Lorem Ipsum Street, Lorem Avenue,</li>
-                        <li>Lorem Ipsum</li>
-                    </ul>
-                </div>
-            </div>
+      <div class="wrapper">
+        <div class="footer-bar">
+          <img src="img/logo_footer.png" alt="logo" />
+          <nav>
+            <ul>
+              <li><a href="">HOME</a></li>
+              <li><a href="">ABOUT US</a></li>
+              <li><a href="">BLOG</a></li>
+              <li><a href="">POLICY</a></li>
+              <li><a href="">CONTACT</a></li>
+            </ul>
+          </nav>
         </div>
+        <div class="box">
+          <div class="designer footer-info">
+            <span
+              >Lorem ipsum dolor sit amet, consecteteeseurı adipiscing elit.
+              Donec mollis commodoeesene que, non commodo risus volutpat
+              vel</span
+            >
+            <br />
+            <span>Design by </span>
+          </div>
+          <div class="footer-menu footer-info">
+            <ul>
+              <li>Support</li>
+              <li>Account</li>
+              <li>Product Catalog</li>
+              <li>Shortcodes</li>
+            </ul>
+            <ul>
+              <li>Site Map</li>
+              <li>Whois Search</li>
+              <li>Wab Mail</li>
+              <li>Find Domain</li>
+            </ul>
+          </div>
+          <div class="contacts footer-info">
+            <ul>
+              <li><img src="img/phone-png.png" alt="phone" />0000-0000-0000</li>
+              <li>
+                <img
+                  src="img/mail-png.png"
+                  alt="mail"
+                />infomationteam@ghosthost.com
+              </li>
+              <li>Lorem Ipsum Street, Lorem Avenue,</li>
+              <li>Lorem Ipsum</li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </footer>
-</body>
-
+  </body>
 </html>
